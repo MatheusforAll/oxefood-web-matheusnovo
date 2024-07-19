@@ -5,6 +5,7 @@ import InputMask from 'react-input-mask';
 import { Button, Container, Divider, Form, Icon } from 'semantic-ui-react';
 import MenuSistema from '../../MenuSistema';
 
+// colocar em maiusculo
 export default function FormChefe() {
     const [nome, setNome] = useState('');
     const [endereco, setEndereco] = useState('');

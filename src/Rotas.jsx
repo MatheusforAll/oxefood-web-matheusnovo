@@ -21,6 +21,9 @@ import FormChefe from './views/chefe/FormChefe';
 import ListChefe from './views/chefe/ListChefe';
 
 
+import FormPromocao from './views/promocao/FormPromocao';
+import ListPromocao from './views/promocao/ListPromocao';
+
 
 function Rotas() {
     return (
@@ -42,9 +45,13 @@ function Rotas() {
                 <Route path="list-fabricante" element={ <ListFabricante/> }/>
 
                 <Route path="form-chefe" element={ <FormChefe/> }/>
-                <Route path="list-chefe" element={ <ListChefe/> }
+                <Route path="list-chefe" element={ <ListChefe/> } />
+
+                <Route path="form-promocao" element={ <FormPromocao/> }/>
+                <Route path="list-promocao" element={ <ListPromocao/> }
                 
                  />
+
             </Routes>
         </>
     )

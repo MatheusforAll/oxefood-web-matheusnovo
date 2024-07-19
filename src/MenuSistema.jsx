@@ -76,6 +76,15 @@ export default function MenuSistema() {
                     to='/list-chefe'
                 />
 
+
+                <Menu.Item
+                    name='promocao'
+                    active={activeItem === 'promocao'}
+                    onClick={() => setActiveItem('promocao')}
+                    as={Link}
+                    to='/list-promocao'
+                />
+
             </Menu>
         </>
     )
